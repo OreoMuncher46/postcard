@@ -4,7 +4,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { Reveal, Stagger, StaggerItem, MaskReveal } from "./primitives";
 
 const PHIL_IMG =
-  "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1800&auto=format&fit=crop";
+  "/images/materials.png";
 
 function Philosophy() {
   const ref = useRef(null);

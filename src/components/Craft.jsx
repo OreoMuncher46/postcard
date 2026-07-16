@@ -4,10 +4,10 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { Reveal, Stagger, StaggerItem, Parallax } from "./primitives";
 
 const CRAFT_IMGS = [
-  "https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=1600&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1602874801006-e26c4c5b5a4b?q=80&w=1400&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1594035921171-a3cd56c1f60a?q=80&w=1400&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1610648683260-6ca2f5e3c8e1?q=80&w=1600&auto=format&fit=crop",
+  "/images/materials.png",
+  "/images/glass-vessels.png",
+  "/images/hand-working.jpeg",
+  "/images/finished-flacon.jpeg",
 ];
 
 const STEPS = [
