@@ -9,12 +9,13 @@
     "preview": "vite preview --host"
   },
   "dependencies": {
+    "framer-motion": "^12.42.2",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "framer-motion": "^12.42.2"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.4",
+    "sharp": "^0.35.3",
     "vite": "^6.0.0"
   }
 }

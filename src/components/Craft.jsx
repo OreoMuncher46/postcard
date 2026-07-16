@@ -4,10 +4,10 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { Reveal, Stagger, StaggerItem, Parallax } from "./primitives";
 
 const CRAFT_IMGS = [
-  "/images/materials.png",
-  "/images/glass-vessels.png",
-  "/images/hand-working.jpeg",
-  "/images/finished-flacon.jpeg",
+  "/images/materials.jpg",
+  "/images/glass-vessels.jpg",
+  "/images/hand-working.jpg",
+  "/images/finished-flacon.jpg",
 ];
 
 const STEPS = [
@@ -61,22 +61,22 @@ function Craft() {
       <div className="craft__gallery" style={{ marginBottom: "clamp(4rem, 10vh, 8rem)" }}>
         <div className="img-mask craft__cell craft__c1">
           <Parallax speed={0.18} style={{ height: "100%" }}>
-            <img src={CRAFT_IMGS[0]} alt="Materials arranged on a low bench" loading="lazy" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+            <img src={CRAFT_IMGS[0]} alt="Materials arranged on a low bench" loading="lazy" style={{ width: "100%", height: "100%", objectFit: "contain" }} />
           </Parallax>
         </div>
         <div className="img-mask craft__cell craft__c2 img--noir">
           <Parallax speed={-0.12} style={{ height: "100%" }}>
-            <img src={CRAFT_IMGS[1]} alt="Glass vessels at rest" loading="lazy" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+            <img src={CRAFT_IMGS[1]} alt="Glass vessels at rest" loading="lazy" style={{ width: "100%", height: "100%", objectFit: "contain" }} />
           </Parallax>
         </div>
         <div className="img-mask craft__cell craft__c3">
           <Parallax speed={0.22} style={{ height: "100%" }}>
-            <img src={CRAFT_IMGS[2]} alt="Hand working at a low table" loading="lazy" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+            <img src={CRAFT_IMGS[2]} alt="Hand working at a low table" loading="lazy" style={{ width: "100%", height: "100%", objectFit: "contain" }} />
           </Parallax>
         </div>
         <div className="img-mask craft__cell craft__c4 img--subdued">
           <Parallax speed={-0.16} style={{ height: "100%" }}>
-            <img src={CRAFT_IMGS[3]} alt="Finished flacon in low light" loading="lazy" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+            <img src={CRAFT_IMGS[3]} alt="Finished flacon in low light" loading="lazy" style={{ width: "100%", height: "100%", objectFit: "contain" }} />
           </Parallax>
         </div>
       </div>

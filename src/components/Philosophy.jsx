@@ -4,7 +4,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { Reveal, Stagger, StaggerItem, MaskReveal } from "./primitives";
 
 const PHIL_IMG =
-  "/images/materials.png";
+  "/images/materials.jpg";
 
 function Philosophy() {
   const ref = useRef(null);
